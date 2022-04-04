@@ -1,0 +1,105 @@
+/* Write some CSS below */
+/* style.css */
+body {
+  font-family: Overpass;
+  color: black;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: Chivo;
+  color: black;
+}
+
+p {
+	color: black;
+	opacity: .7;
+}
+
+.container {
+	width: 1500px;
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+.container h3 { 
+	color: gold;
+	font-size: 48px;
+	text-align: center;  }
+
+
+
+.banner {
+	background-image:  url('images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.banner h1 {
+	color: white;
+	font-size: 40px;
+	margin: 1;
+}
+
+.banner p { 
+	color: white;
+	font-size: 27px;
+
+}
+
+.button-blue {
+  background-color: blue;
+  color: white;
+  padding: 19px 48px;
+  border-radius: 8px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+}
+
+.button-blue:hover {
+  background-color: gold;
+  color: white;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 25px;
+} 
+
+.card-white {
+  background: white;
+  box-shadow: 0 0 16px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  width: 290px;
+  text-align: center;
+  padding: 24px;
+  margin: 9px;
+}
+
+.card-white img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
+
+.card-white h3 {
+  margin-bottom: 0;
+}
+
+.footer {
+  background: black;
+  text-align: center;
+  padding: 24px 0;
+}
+
+.footer p {
+  color: white;
+}
+
